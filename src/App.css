@@ -15,12 +15,13 @@ a:hover{
 color: #a54b2a;
 }
 .nav{
-  background: url("https://image.shutterstock.com/image-photo/background-floor-pattern-perspective-chess-260nw-481189447.jpg")50% 65% no-repeat;
+  background: url("https://thumbs.dreamstime.com/z/black-white-chess-board-different-perspective-vector-77368297.jpg")50% 69% no-repeat;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 font-size: 1.5em;
 padding: 10px;
+margin-bottom: 5%;
 }
 .openings-nav{
   display: flex;
@@ -41,7 +42,8 @@ padding: 10px;
 }
 
 img{
-  margin: 3% 10% 0 10%;
+  display: block;
+  margin: 0 auto;
   max-width: 50%;
 }
 .score_box {

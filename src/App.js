@@ -4,6 +4,8 @@ import Principles from "./Components/principles"
 import Openings from "./Components/Openings/openings"
 import './App.css';
 import MasterGames from './Components/MasterGames/master-games';
+import Traps from './Components/Traps/traps';
+import Home from './Components/home';
 
 function App() {
   return (
@@ -18,10 +20,13 @@ function App() {
 
     </div>
    
+    <Route exact path="/" component={Home} />
     <Route exact path="/principles" component={Principles} />
     <Route  path="/openings" component={Openings} />
     <Route  path="/master-games" component={MasterGames} />
+    <Route  path="/traps" component={Traps} />
     </Router>
+      
   
           </>
   );

@@ -6,7 +6,7 @@ function Principles() {
     <>
 <div class="subject">
   <h1>64 Chess Principles</h1>
-<p><a href="http://www.chessmaniac.com/wp-content/uploads/2012/06/principles.jpg"><img src="http://www.chessmaniac.com/wp-content/uploads/2012/06/principles.jpg" alt="" width="183" height="276" class="alignleft size-full wp-image-4560"/></a><br/>
+<p>
 
 01. Develop your chess pieces quickly. Develop your knights and bishops, and castle early to develop a rook.<br/>
 02. Control the center as fast as you can with pawns and minor pieces.<br/>
