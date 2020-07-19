@@ -10,8 +10,8 @@ function MasterGames() {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <>
-       <h1>Study The Old Master Games</h1>
-        <div class="cbreplay" data-url="10.pgn">
+       <h1>Study The Master Games</h1>
+        <div class="cbreplay" data-url="163925.pgn">
         </div>
         {/* <h1>Magnus Carlsen Dominates The Isle of Man International Masters 2017</h1>
         <div class="cbreplay" data-url="163925.pgn">
