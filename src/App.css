@@ -41,7 +41,7 @@ padding: 10px;
   color: rgb(11, 11, 42);
 }
 .dropdown-menu{
-  background-color: rgb(209, 214, 231);
+  background-color: rgba(223, 223, 223, 0.904);
 }
 .subject  {
   margin: auto 15%;
