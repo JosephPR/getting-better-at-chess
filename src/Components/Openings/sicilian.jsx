@@ -4,6 +4,7 @@ import '../../App.css';
 function Sicilian() {
   return (
     <>
+      <div className="subject">
     <h1>Sicilian Defense</h1>
 <p><img class="alignright" title="Sicilian Defense" src="https://www.thechesswebsite.com/wp-content/uploads/2012/07/sicilian-big.jpg" alt="Sicilian Defense" width="250" height="250" /></p>
 <p>The Sicilian Defense is the most popular defense against white&rsquo;s opening 1.e4 and is used extensively at top level play. It is a very aggressive defense and immediately stakes claim at the center, denying white the double pawns on e4 and d4. Many chess champions actually prefer to start with 1.d4 because of how well the Sicilian Defense plays against 1.e4.</p>
@@ -71,6 +72,7 @@ function Sicilian() {
 <p>So why doesn't anybody play it? In the pawnsac-mainline the current theoretical assessment is a worse endgame for black, that probably deters GMs. But to get there white has to survive several tactical shots with a king in the middle of the board and playing this mainline isn't even forced for black!</p>
 <p>I have played it for years and it usually leads to an open fight, where both sides are quickly out of book (my opponent, because the variation is so rare, and I, because I'm to lazy to prepare). To me the Nimzo Sicilian is also an transposition paradise: You can cut out a lot of options for your opponent and still often reach the Kan or Sveshnikov. It is also a pain for Bb5 or Maroczy-players, because they suddenly realise that they didn't actually solve their "sicilian problem".</p>
 <p>&nbsp;</p>
+</div>
     </>
   );
 }

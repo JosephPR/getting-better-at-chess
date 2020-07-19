@@ -5,6 +5,7 @@ window.addEventListener("message",e=>{e['data']&&"6876870"===e['data']['id']&&do
 function MasterGames() {
   return (
     <>
+       <div className="subject">
         <h3>Sicilian Defense: Open, Sveshnikov, Chelyabinsk Variation, 9...Be7 10.Bxf6 Bxf6 11.c3 Bg5</h3>
         <ul>
             <li>the position after 19.- Bd8 is a perfect example of dynamic play from black. His position can easily be mistaken for being too passive, when it really is full of possibilities.</li>
@@ -23,6 +24,7 @@ function MasterGames() {
         <div>30.Re4&nbsp;c5&nbsp;31.Ra6&nbsp;Rxa7&nbsp;32.Rxg6&nbsp;Bg7&nbsp;33.Bb2&nbsp;Qb5&nbsp;34.Bc3&nbsp;</div>
         <div>1-0</div>
         </blockquote>
+        </div>
     </>
   );
 }
