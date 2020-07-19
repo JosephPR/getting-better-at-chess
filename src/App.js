@@ -27,6 +27,7 @@ import Open from './Components/Principles/the-open'
 import Middlegame from './Components/Principles/middlegame';
 import Endgame from './Components/Principles/endgame';
 import Thinking from './Components/Principles/thinking';
+import MyGames from './Components/MyGames/my-games';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -35,7 +36,7 @@ function App() {
     <>
      <Router>
      <div className="nav">
-      <Navbar expand="xl">
+      <Navbar className="nav-styles" light expand="xl">
         <NavbarBrand href="/">ChessMastery</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -98,7 +99,10 @@ function App() {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink> <Link className='nav-links' to='/master-games'>MasterGames</Link></NavLink>
+              <NavLink href="/mastergames"> <Link className='nav-links' to='/master-games'>MasterGames</Link></NavLink>
+            </NavItem>
+            <NavItem>
+            <NavLink href="/mastergames"> <Link className='nav-links' to='/my-games'>My Games</Link></NavLink>
             </NavItem>
           </Nav>
           
@@ -113,7 +117,8 @@ function App() {
     <Route exact path="/the-open" component={Open} />
     <Route exact path="/middlegame" component={Middlegame} />
     <Route exact path="/endgame" component={Endgame} />
-
+    
+    <Route  path="/my-games" component={MyGames} />
     <Route  path="/master-games" component={MasterGames} />
     <Route exact path="/sicilian" component={Sicilian} />
     <Route  path="/queens-gambit" component={QueensGambit} />

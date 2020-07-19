@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-  margin: auto;
   font-family: "Poppins";
    font-size: 20px;
 }
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1;    
+}
 a{
 text-decoration: none;
-color: #a52a3a;
+color: #a52a3a!important;
 }
 p{
   line-height: 2em;
@@ -16,7 +20,7 @@ h1{
   text-align: center;
 }
 a:hover{
-color: navy;
+color: navy!important;
 text-decoration: none;
 }
 .nav{
@@ -26,6 +30,9 @@ text-decoration: none;
   justify-content: space-around;
 font-size: 1.3em;
 padding: 20px;
+margin:0;
+width: 100%;
+overflow: hidden;
 }
 .openings-nav{
   display: flex;
@@ -64,6 +71,6 @@ img{
   line-height: 1.5em;
   font-size: 1.35em;
 }
-div.col{
+.col{
   padding:20px;
 }
