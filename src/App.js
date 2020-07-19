@@ -74,7 +74,7 @@ function App() {
                 <DropdownItem className="openings-nav">
                 <Link className='nav-links' to='/queens-gambit'>Queens Gambit</Link>
                 </DropdownItem>
-                <DropdownItem divider />
+                
                 <DropdownItem className="openings-nav">
                 <Link className='nav-links' to='/giuoco-piano'>Giuoco Piano</Link>
                 </DropdownItem>

@@ -6,12 +6,14 @@ function MasterGames() {
   return (
     <>
        <div className="subject">
+         <h1>Carlsen vs. Smeets 2006</h1>
         <h3>Sicilian Defense: Open, Sveshnikov, Chelyabinsk Variation, 9...Be7 10.Bxf6 Bxf6 11.c3 Bg5</h3>
         <ul>
             <li>the position after 19.- Bd8 is a perfect example of dynamic play from black. His position can easily be mistaken for being too passive, when it really is full of possibilities.</li>
             <li>43.Rxg3! Nice removal of the guard tactic by Magnus. White's totally dead after that...Qh1+, Rxg4, Rg1+ (if white moves the queen off the g-file) are all threats.</li>
         </ul>
         <iframe id="6876834" title="Magnus-vs-smeets-2006" allowtransparency="true" frameborder="0" style={{width:"100%"}} src="//www.chess.com/emboard?id=6876834"></iframe>
+        <h1>Svidler vs. Adams 2000</h1>
         <h3>Ruy López Opening: Morphy Defense, Neo-Arkhangelsk Variation</h3>
         <p>The game below is in a puzzle format try not to look at the moves below and see if you can guess the moves for white in this game.</p>
         <iframe id="6876870" title="Peter-Svidler-vs-Michael-Adams-2000" allowtransparency="true" frameborder="0" style={{width:"100%"}} src="//www.chess.com/emboard?id=6876870"></iframe>

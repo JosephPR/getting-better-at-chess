@@ -12,7 +12,6 @@ function GiuocoPiano() {
 <p>The opening has been called the &ldquo;quiet game&rdquo; but for anyone who has played this opening, after the initial build up in the center, the Giuoco Piano becomes anything but quiet. There will almost certainly be many exchanges in the middle as both sides vie for center control, opening the board up.</p>
 <p>White eventually plans to bring his pawn to d4 and black plans to bring his pawn to d5. As you can tell from the setup, there are no attacks from the outside but instead everything runs through the middle.</p>
 <p>This opening is somewhat tricky and there are many variations that you many want to study more if you plan on playing the Giuoco Piano.</p>
-<p>Watch the video below to watch more detailed explanations of the opening, multiple variations, and extended lines.</p>
     </div>
 
     </>
