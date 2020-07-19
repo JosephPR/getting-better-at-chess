@@ -18,7 +18,34 @@ function Open() {
 <p>The same logic applies to the well-known “<strong><em>don’t get your queen out in the opening</em></strong>” rule, although in this case there are a number of well-known examples (like <a href="/articles/openings/the-3qa5-scandinavian-play-it-safely-and-aggressively/">the Scandinavian</a>) that show us this is sometimes acceptable. However, the main point is this – if it is not necessary and your opponent can attack it, the queen is usually between the last pieces to develop.</p>
 <h2><strong>3.Control the center</strong></h2>
 <p>The whole game is a fight for the center and it starts from the very beginning with developing the pieces towards the center. They are not only more active if they are placed on the central square, but at the same time, they limit your opponent’s activity.</p>
- 
+ <div>
+   <a href="https://en.wikipedia.org/wiki/List_of_chess_gambits" alt="gambits">List of Gambits</a>
+
+   <h2>Fun Gambits to learn</h2>
+     <h4>As White</h4>
+   <ul>
+     <li>Danish Gambit</li>
+     <li>Scotch</li>
+     <li>Vienna</li>
+     <li>Goring</li>
+     <li>Evan's</li>
+     <li>Wing</li>
+     <li>Blackmar Diemer</li>
+     <li>Evan's</li>
+     <li>Hillbilly Attack</li>
+     </ul>
+     <h4>As Black</h4>
+     <ul>
+       <li>Stafford</li>
+       <li>Budapest</li>
+       <li>Englund</li>
+       <li>Benko</li>
+       <li>Blumenfield</li>
+       <li>Marshall</li>
+       <li>Colorado</li>
+     </ul>
+  
+ </div>
 </Container>
 
 

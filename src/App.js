@@ -26,6 +26,7 @@ import TopTraps from './Components/Traps/top-traps'
 import Open from './Components/Principles/the-open'
 import Middlegame from './Components/Principles/middlegame';
 import Endgame from './Components/Principles/endgame';
+import Thinking from './Components/Principles/thinking';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -45,7 +46,10 @@ function App() {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem className="openings-nav">
-                <Link className='nav-links' to='/principles'>64 Principles</Link>
+                <Link className='nav-links' to='/thinking'>How to Think</Link>
+                </DropdownItem>
+                <DropdownItem className="openings-nav">
+                <Link className='nav-links' to='/principles'>75 Principles</Link>
                 </DropdownItem>
                 <DropdownItem className="openings-nav">
                 <Link className='nav-links' to='/the-open'>Opening</Link>
@@ -104,6 +108,7 @@ function App() {
    
    
     <Route exact path="/" component={Home} />
+    <Route exact path="/thinking" component={Thinking} />
     <Route exact path="/principles" component={Principles} />
     <Route exact path="/the-open" component={Open} />
     <Route exact path="/middlegame" component={Middlegame} />

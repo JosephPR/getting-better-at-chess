@@ -6,7 +6,7 @@ function Principles() {
   return (
     <>
 <div class="subject">
-  <h1>64 Chess Principles</h1>
+  <h1>75 Chess Principles</h1>
   <Container>
       <Row xs="2">
         <Col>01. Develop your chess pieces quickly. Develop your knights and bishops, and castle early to develop a rook.</Col>
@@ -40,7 +40,7 @@ function Principles() {
         <Col>29. Put rooks behind passed pawns.</Col>
         <Col>30. Study rook endgames. They are the most common and most complicated.</Col>
         <Col>31. Don’t let your king get caught in the center unless it is the endgame.</Col>
-        <Col>32. Don’t castle if it br/ings your king into greater danger from attack.</Col>
+        <Col>32.  One of the best ways to learn is to subject your own games to intensive analysis.</Col>
         <Col>33. After castling, keep a good pawn formation around your king.</Col>
         <Col>34. If you only have one bishop, put your pawns on its opposite color.</Col>
         <Col>35. Trade pawns pieces when ahead in material or when under attack.</Col>
@@ -73,6 +73,17 @@ function Principles() {
         <Col>62. Play in as many rated events as you can.</Col>
         <Col>63. Try not to look at your opponent’s rating until after the game.</Col>
         <Col>64. Always play for a win.</Col>
+        <Col>65. Devour the games of the masters</Col>
+        <Col>66. Play an opening first, then look up what theory there is on it.</Col>
+        <Col>67. A wing attack is best met by a counterattack in the center.</Col>
+        <Col>68. Do not pin your opponent&rsquo;s f3- or f6-knight to his queen with your bishop until after he&rsquo;s castled.</Col>
+        <Col>69. Fewer pawn islands means a healthier position.</Col>
+        <Col>70. Fewer pawn islands means a healthier position.</Col>
+        <Col>71. You must attack when you have the superior game, or you will forfeit your advantage.</Col>
+        <Col>72. Attacking two weaknesses on opposite sides of the board simultaneously will stretch out the defense.</Col>
+        <Col>73. Relentlessly attack pinned pieces, weak pawns, exposed kings, and other immobile targets.</Col>
+        <Col>74. Place your pawns on the opposite color square as your bishop.</Col>
+        <Col>75. Focus your chess thinking.</Col>
       </Row>
   </Container>
 
