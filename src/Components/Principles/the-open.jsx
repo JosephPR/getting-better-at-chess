@@ -22,8 +22,10 @@ function Open() {
    <a href="https://en.wikipedia.org/wiki/List_of_chess_gambits" alt="gambits">List of Gambits</a>
 
    <h2>Fun Gambits to learn</h2>
+   <div className="gambits">
+     <div>
      <h4>As White</h4>
-   <ul>
+     <ul>
      <li>Danish Gambit</li>
      <li>Scotch</li>
      <li>Vienna</li>
@@ -34,6 +36,8 @@ function Open() {
      <li>Evan's</li>
      <li>Hillbilly Attack</li>
      </ul>
+     </div>
+     <div>
      <h4>As Black</h4>
      <ul>
        <li>Stafford</li>
@@ -44,6 +48,12 @@ function Open() {
        <li>Marshall</li>
        <li>Colorado</li>
      </ul>
+     </div>
+  
+  
+    
+   </div>
+   
   
  </div>
 </Container>

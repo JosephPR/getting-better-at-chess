@@ -28,6 +28,7 @@ import Middlegame from './Components/Principles/middlegame';
 import Endgame from './Components/Principles/endgame';
 import Thinking from './Components/Principles/thinking';
 import MyGames from './Components/MyGames/my-games';
+import PopularLines from './Components/Openings/popular-lines';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -69,6 +70,9 @@ function App() {
               Openings
               </DropdownToggle>
               <DropdownMenu right>
+                <DropdownItem className="openings-nav">
+                <Link className='nav-links' to='/popular-lines'>Popular Lines</Link>
+                </DropdownItem>
                 <DropdownItem className="openings-nav">
                 <Link className='nav-links' to='/sicilian'>Sicilian</Link>
                 </DropdownItem>
@@ -121,6 +125,7 @@ function App() {
     <Route  path="/my-games" component={MyGames} />
     <Route  path="/master-games" component={MasterGames} />
     <Route exact path="/sicilian" component={Sicilian} />
+    <Route exact path="/popular-lines" component={PopularLines} />
     <Route  path="/queens-gambit" component={QueensGambit} />
     <Route  path="/giuoco-piano" component={GiuocoPiano} />
     <Route  path="/french" component={French} />
@@ -129,7 +134,7 @@ function App() {
     <Route exact path="/fishing-pole" component={FishingPole} />
     </Router>
       
-  
+    <footer></footer>
           </>
   );
 }
