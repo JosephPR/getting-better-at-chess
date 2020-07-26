@@ -33,6 +33,9 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+  const reloadPage = () => {
+    window.location.reload()
+  }
   return (
     <>
      <Router>
@@ -103,7 +106,7 @@ function App() {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/mastergames"> <Link className='nav-links' to='/master-games'>MasterGames</Link></NavLink>
+              <NavLink href="/mastergames" onClick={reloadPage}> <Link className='nav-links' to='/master-games'>MasterGames</Link></NavLink>
             </NavItem>
             <NavItem>
             <NavLink href="/mastergames"> <Link className='nav-links' to='/my-games'>My Games</Link></NavLink>
@@ -134,7 +137,24 @@ function App() {
     <Route exact path="/fishing-pole" component={FishingPole} />
     </Router>
       
-    <footer></footer>
+    <footer className="footer-menu-section">
+      <div className="footer-box">
+      <h5>Phone : <a href="tel:410.335.1700">410.335.1777</a></h5>
+<h5>FAX : <a href="fax:410.335.9778">410.335.7777</a></h5>
+<h5>Toll Free : <a href="tel:800.966.7883">800.966.8773</a></h5>
+<h5><a href="mailto:jreilly@revriv.com">jreilly@revriv.com</a></h5>
+      </div>
+      <div className="footer-box">
+     
+<ul>
+<li><a href="https://www.facebook.com/Wilmot-Modular-Structures-Inc-152700391461505/?fref=nf" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook">&nbsp;</i></a></li>
+<li><a href="https://twitter.com/wilmotmod" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">&nbsp;</i> </a></li>
+<li><a href="https://www.linkedin.com/company/wilmot-modular-structures/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin">&nbsp;</i></a></li>
+<li><a href="https://www.instagram.com/wilmotmodularstructures/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram">&nbsp;</i></a></li>
+</ul>
+      </div>
+ 
+    </footer>
           </>
   );
 }
