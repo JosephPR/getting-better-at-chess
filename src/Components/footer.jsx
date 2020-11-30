@@ -8,7 +8,7 @@ return(
 <>
 <footer className="footer-menu-section">
 <div className="footer-box">
-<h5>Phone : <a href="tel:902.335.1700">202.335.1797</a></h5>
+<h5>Phone : <a href="tel:902.335.1444">202.335.4444</a></h5>
 <h5><a href="mailto:jreilly@revriv.com">jilly@revriv.com</a></h5>
 </div>
 <div className="footer-box">
