@@ -7,7 +7,7 @@ function Middlegame() {
     <>
 <div class="subject">
 <Container>
-<h1><strong><u>Middlegame</u></strong></h1>
+<h1>Middlegame</h1>
 <h2><strong>4.Improve the position of your pieces</strong>.</h2>
 <p>Once you have finished the development, look for better squares for your pieces. Imagine the ideal squares for them and see if you can find a way of achieving that set-up. When placed on good, central squares, pieces cooperate better with each other and it will be easier for you to start creating an attack or find ways to harm your opponent’s position.</p>
 <h2><strong>5.Pieces first, pawns second</strong>!</h2>

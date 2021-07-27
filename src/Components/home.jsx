@@ -6,8 +6,11 @@ import '../App.css';
 function Home() {
   return (
     <>
-    
-    <img className="board" src={gif} alt="board-gif"/>
+    <div className="hero">
+    <h2>Here the student becomes the master</h2>
+
+    </div>
+    {/* <img className="board" src={gif} alt="board-gif"/> */}
     </>
   );
 }

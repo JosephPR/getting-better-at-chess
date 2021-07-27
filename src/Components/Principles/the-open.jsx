@@ -7,7 +7,7 @@ function Open() {
     <>
 <div class="subject">
 <Container>
-<h1><strong><u>Opening</u></strong></h1>
+<h1>Opening</h1>
 <p>From a very early moment in our chess journey, we are being explained the importance of the chess Open and that we should always use them as a guideline during our games. While chess has developed a lot in recent years and the use of engines has encouraged play based sometimes solely on calculation, the classics remain very much alive and we still need to use their past wisdom in order to call ourselves complete players.</p>
 <p>Here are some of those basic principles that every player should know, grouped on the 3 phases of the game.</p>
 <p><span id="more-11275"></span></p>

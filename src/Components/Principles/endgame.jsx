@@ -7,7 +7,7 @@ function Endgame() {
     <>
 <div class="subject">
 <Container>
-<h1><strong><u>Endgame</u></strong></h1>
+<h1>Endgame</h1>
 <h2><strong>9.Centralize your king</strong></h2>
 <p>In the endgame, the king becomes a strong piece and it is important to br/ing it towards the center. It helps attack the pawns and put pressure on your opponent’s position. Most of the times the side with the stronger king ends up winning the endgame.</p>
 <h2><strong>10.Activity over material advantage</strong></h2>
