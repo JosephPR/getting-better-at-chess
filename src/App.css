@@ -23,7 +23,8 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: clamp(1rem, 1.5vw, 2rem);
+
 }
 ul,li{
   list-style: none;
@@ -36,7 +37,7 @@ ul,li{
 }
 a{
 text-decoration: none;
-color: #540804!important;
+color: #221203!important;
 }
 p{
   line-height: 1.6em;
@@ -48,32 +49,37 @@ h1,h2{
   padding: 5%;
   text-align: center;
   font-weight: 600;
-  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  font-size: clamp(1.8rem, 3vw, 4.8rem);
 }
 h4{
   padding: 5%;
   text-align: center;
 }
 .hero{
-  
+  box-shadow: 0px 0px 0px 8000px rgba(77, 10, 14, 0.5) inset;
   color:#fff;
   font-weight: 600; 
   height:700px;
-  background-color:#611a15!important;
+  background:url("./Components/charlie-solorzano-aeXK1IeVVoI-unsplash.jpg") no-repeat;
+  background-size: cover;
 }
 .hero h2{
   font-size: clamp(1.8rem, 4.5vw, 3.8rem);
-  line-height: 2;
+  line-height: 1.6;
+  font-weight: 700;
+
 }
 .hero p {
   text-align: center;
+  font-size: clamp(1rem, 2vw, 1.8rem);
+
 }
 a:hover{
-color: #AD2E24!important;
+color: #881e16!important;
 text-decoration: none;
 }
 .nav{
-  background: url("https://thumbs.dreamstime.com/z/black-white-chess-board-different-perspective-vector-77368297.jpg")50% 69% no-repeat;
+  background: #dabfb4;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -108,7 +114,7 @@ padding: 10px;
 .board{
   max-width: 100%;
 }
-
+.line-height div,.line-height li {line-height:2;}
 img{
   display: block;
   margin: 0 auto;
@@ -131,13 +137,18 @@ img{
 
 }
 .footer-menu-section{
-  padding:50px;
+  padding:20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 background-color: #ac9a98;
 }
-.footer-box{
+.footer-box ul{
   margin: 0 auto;
+  display:flex;
+}
+.footer-box li,.footer-box h5{
+ padding:20px;
 }
 .principles{
   display:flex;

@@ -19,7 +19,7 @@ function MasterGames() {
        <div className="subject">
          <h2>Carlsen vs. Smeets 2006</h2>
         <h3>Sicilian Defense: Open, Sveshnikov, Chelyabinsk Variation, 9...Be7 10.Bxf6 Bxf6 11.c3 Bg5</h3>
-        <ul>
+        <ul className="line-height">
             <li>the position after 19.- Bd8 is a perfect example of dynamic play from black. His position can easily be mistaken for being too passive, when it really is full of possibilities.</li>
             <li>43.Rxg3! Nice removal of the guard tactic by Magnus. White's totally dead after that...Qh1+, Rxg4, Rg1+ (if white moves the queen off the g-file) are all threats.</li>
         </ul>

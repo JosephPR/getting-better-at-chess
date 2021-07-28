@@ -12,7 +12,7 @@ function Sicilian() {
 <p>White not only has to worry about black&rsquo;s defense but also the counter attack that the Sicilian Defense presents. White tends to have the advantage on the king side while black will usually look to attack on the queen side.</p>
 <p>For those chess players that play against the 1.e4 opening quite often, the Sicilian Defense is an opening that you should spend quite a bit of time studying. There are many variations and they each are designed for specific types of players.</p>
 <p>Watch the video below to watch more detailed explanations of the opening, multiple variations, and extended lines.</p>
-    <div>
+    <div className="line-height">
 <div>The sicilian is probably the most complex defence to 1. e4!. I will try to answer you as best as I can:</div>
 <br />
 <div>1. The C pawn is ment to be traded for the D pawn but gives white a lead in development but my 2 vs 1 center pawn ratio wont allow him to have any early attack.</div>
