@@ -1,4 +1,4 @@
- [Chess Mastery](https://chessbeginnertomaster.firebaseapp.com).
+Here is a link to the app: [Chess Mastery](https://chessbeginnertomaster.firebaseapp.com).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
